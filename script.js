@@ -10,10 +10,22 @@ increase the count when pressing + by adding 1 to the current number at
 the same time decrease the count by 1 when - is pressed 
 
 
-*/
- function addNumber(){
- 	document.getElementById("demo").innerHTML = 
+*/				
+ let increaseNumber = getElementById("increase");
+ let decreaseNumber = getElementById("decrease");
+ let int = getElementById("number");
+ let integer = 0;
+ 
+ increaseNumber.addEventListener("click", addOne(){																				 {
+ 		integer += 1;
+ 		int.innerHTML = integer;				
 
-	let currentNumber= 0
-	return newNumber = currentNumber + 1
-}
+ });		
+ 
+
+  decreaseNumber.addEventListener("click", subOne() {
+  	integer -= 1;
+  	int.innerHTML = integer;
+  });
+
+ 		
