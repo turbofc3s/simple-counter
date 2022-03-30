@@ -11,21 +11,21 @@ the same time decrease the count by 1 when - is pressed
 
 
 */				
- let increaseNumber = getElementById("increase");
- let decreaseNumber = getElementById("decrease");
- let int = getElementById("number");
- let integer = 0;
- 
- increaseNumber.addEventListener("click", addOne(){																				 {
- 		integer += 1;
- 		int.innerHTML = integer;				
+	 let increaseNumber = document.getElementById("increase");
+	 let decreaseNumber = document.getElementById("decrease");
+	 let int = document.getElementById("number");
+	 let integer = 0;
+	 
+	 increaseNumber.addEventListener("click", function (){							 
+	 		integer += 1;
+	 		int.innerHTML = integer;				
 
- });		
- 
+	 });		
+	 
 
-  decreaseNumber.addEventListener("click", subOne() {
-  	integer -= 1;
-  	int.innerHTML = integer;
-  });
+	  decreaseNumber.addEventListener("click", () => {
+	  	integer -= 1;
+	  	int.innerHTML = integer;
+	  });
 
  		
